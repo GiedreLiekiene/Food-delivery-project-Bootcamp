@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Food Delivery</title>
+</head>
+  <header>
+    <img class="logo" src="img/wolt-logo.png" alt="logo" />
+    <div class="header-container">
+      <input class="search-bar" type="text" placeholder="Search..." />
+      <nav class="main-nav">
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#">Log in</a></li>
+          <li><a class="nav-link" href="#">Sign up</a></li>
+          <li><a class="nav-link" href="#">
+            <select name="languages" id="languages">
+              <option value="english">English</option>
+              <option value="lithuanian">Lietuvių</option>
+              <option value="latvian">Latviešu</option>
+            </select>
+          </a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="nav2">
+      <button class="nav-button active">Discovery</button>
+      <button class="nav-button">Restaurants</button>
+      <button class="nav-button">Stores</button>    
+    </div>  
+  </header>
+  <div class="slider">    
+    <div class="sl-buttons">
+        <button class="slider-button">
+					<p class="arrow leftB"></p>
+        </button>
+    </div>
+    <div class="slider-img sl-img-left">
+        <a class="sl-a" href="#"><img class="sl-img" src="img/slider-img-left.png" alt=""></a>
+        <div class="sl-img-text">
+					<h1 class="slider-h1">Summer essentials</h1>
+					<p class="slider-p">Everything for sunny days is here</p>
+        </div>
+    </div>
+    <div class="slider-img sl-img-right">
+        <a class="sl-a" href="#"><img class="sl-img" src="img/slider-img-right.png" alt=""></a>
+        <div class="sl-img-text">
+					<h1 class="slider-h1">0€ delivery</h1>
+					<p class="slider-p">from all stores</p>
+        </div>
+    </div>
+    <div class="sl-buttons">
+			<button class="slider-button">
+				<p class="arrow rightB"></p>
+			</button>
+    </div>
+  </div>
+  <main class="delivery">
+    <div class="delivery-nav">
+      <div class="delivery-title">
+        <h2>Fastest delivery</h2>
+      </div>
+      <div class="delivery-nav-box">
+        <span>See all</span>
+        <button class="delivery-nav-button">
+          <img class="icon" src="img/arrow-left.svg">
+        </button>
+        <button class="delivery-nav-button">
+          <img class="icon" src="img/arrow-right.svg">
+        </button>
+      </div>
+    </div>
+    <div class="food-items">
+      <div class="food-items-box">
+        <img class="food-items-box-image" src="img/delivery-mcdonalds.jpg" alt="mcdonalds">
+        <div class="food-item-box-middle">
+          <div class="food-item-box-name">
+            <h3>Mcdonald's</h3>
+            <p>Handmade exclusive burgers!</p>
+          </div>
+          <div class="time-box">5-10</br>min</div>
+        </div>
+        <div class="food-items-box-footer">
+          <span><img class="icon" src="img/delivery-icon.svg">&euro;2.50</span>
+          <span><img class="icon" src="img/delivery-smile.svg">8.2</span>
+        </div>
+      </div>
+      <div class="food-items-box">
+        <img class="food-items-box-image" src="img/delivery-curry.jpg" alt="curry">
+        <div class="food-item-box-middle">
+          <div class="food-item-box-name">
+            <h3>Indian restaraunt "Curry"</h3>
+            <p>Best curry in area!</p>
+          </div>
+          <div class="time-box">7-18</br>min</div>
+        </div>
+        <div class="food-items-box-footer">
+          <span><img class="icon" src="img/delivery-icon.svg">&euro;1.80</span>
+          <span><img class="icon" src="img/delivery-smile.svg">9.2</span>
+        </div>
+      </div>
+      <div class="food-items-box">
+        <img class="food-items-box-image" src="img/delivery-fried-chicken.jpg" alt="chicken">
+        <div class="food-item-box-middle">
+          <div class="food-item-box-name">
+            <h3>Friend chicken Bar</h3>
+            <p>Best friend chicken in town!</p>
+          </div>
+          <div class="time-box">20-30</br>min</div>
+        </div>
+        <div class="food-items-box-footer">
+          <span><img class="icon" src="img/delivery-icon.svg">&euro;2.30</span>
+          <span><img class="icon" src="img/delivery-smile.svg">7.9</span>
+        </div>
+      </div>
+      <div class="food-items-box">
+        <img class="food-items-box-image" src="img/delivery-hotdogs.jpg" alt="hotdogs">
+        <div class="food-item-box-middle">
+          <div class="food-item-box-name">
+            <h3>HOT DOG Town</h3>
+            <p>Custom made Hotdogs!</p>
+          </div>
+          <div class="time-box">15-20</br>min</div>
+        </div>
+        <div class="food-items-box-footer">
+          <span><img class="icon" src="img/delivery-icon.svg">&euro;1.50</span>
+          <span><img class="icon" src="img/delivery-smile.svg">5.2</span>
+        </div>
+      </div>
+    </div>
+    <div class="delivery-nav">
+      <div class="delivery-title">
+        <h2>Late-night snacks nearby</h2>
+      </div>
+      <div class="delivery-nav-box">
+        <span>See all</span>
+        <button class="delivery-nav-button">
+          <img class="icon" src="img/arrow-left.svg">
+        </button>
+        <button class="delivery-nav-button">
+          <img class="icon" src="img/arrow-right.svg">
+        </button>
+      </div>
+    </div>
+    <div class="food-items">
+      <div class="food-items-box">
+        <img class="food-items-box-image" src="img/delivery-kebab.jpg" alt="kebab">
+        <div class="food-item-box-middle">
+          <div class="food-item-box-name">
+            <h3>Turkisk kebabs</h3>
+            <p>Best kebabs you will ever eat!</p>
+          </div>
+          <div class="time-box">4-9</br>min</div>
+        </div>
+        <div class="food-items-box-footer">
+          <span><img class="icon" src="img/delivery-icon.svg">&euro;2.10</span>
+          <span><img class="icon" src="img/delivery-smile.svg">9.9</span>
+        </div>
+      </div>
+      <div class="food-items-box">
+        <img class="food-items-box-image" src="img/delivery-burger.jpg" alt="burger">
+        <div class="food-item-box-middle">
+          <div class="food-item-box-name">
+            <h3>"Burgir"</h3>
+            <p>We make our burgers with love!</p>
+          </div>
+          <div class="time-box">7-18</br>min</div>
+        </div>
+        <div class="food-items-box-footer">
+          <span><img class="icon" src="img/delivery-icon.svg">&euro;3.80</span>
+          <span><img class="icon" src="img/delivery-smile.svg">3.2</span>
+        </div>
+      </div>
+      <div class="food-items-box">
+        <img class="food-items-box-image" src="img/delivery-shashlik.jpg" alt="shashlik">
+        <div class="food-item-box-middle">
+          <div class="food-item-box-name">
+            <h3>Salsa Duo</h3>
+            <p>Shashlik and others..</p>
+          </div>
+          <div class="time-box">10-15</br>min</div>
+        </div>
+        <div class="food-items-box-footer">
+          <span><img class="icon" src="img/delivery-icon.svg">&euro;2.30</span>
+          <span><img class="icon" src="img/delivery-smile.svg">7.9</span>
+        </div>
+      </div>
+      <div class="food-items-box">
+        <img class="food-items-box-image" src="img/delivery-spaghetti.jpg" alt="spaghetti">
+        <div class="food-item-box-middle">
+          <div class="food-item-box-name">
+            <h3>SpaghettiOs</h3>
+            <p>Best spaghetti in the world!</p>
+          </div>
+          <div class="time-box">10-15</br>min</div>
+        </div>
+        <div class="food-items-box-footer">
+          <span><img class="icon" src="img/delivery-icon.svg">&euro;2.50</span>
+          <span><img class="icon" src="img/delivery-smile.svg">6.5</span>
+        </div>
+      </div>
+    </div>
+     <!-- BEGIN Category special offers -->
+  <div class="section-wrapper">
+    <h2>Category special offers 🎉</h2>
+    <div class="categories-wrapper">
+			<div class="category-card">
+				<div class="image-wrapper"><img class="image" src="img/sushi.jpg"></div>
+				<div class="category-title">Sushi 🍣</div>
+			</div>
+			<div class="category-card">
+				<div class="image-wrapper"><img class="image" src="img/burgers.jpg"></div>
+				<div class="category-title">Burgers 🍔</div>
+			</div>
+			<div class="category-card">
+				<div class="image-wrapper"><img class="image" src="img/pizza.jpg"></div>
+				<div class="category-title">Pizza 🍕</div>
+			</div>
+			<div class="category-card">
+				<div class="image-wrapper"><img class="image" src="img/wolt-market.jpg"></div>
+				<div class="category-title">Wolt Market 🚙</div>
+			</div>
+			<div class="category-card">
+				<div class="image-wrapper"><img class="image" src="img/kebab.jpg"></div>
+				<div class="category-title">Kebab 🌯</div>
+			</div>
+			<div class="category-card">
+				<div class="image-wrapper"><img class="image" src="img/vegetarian.jpg"></div>
+				<div class="category-title">Vegetarian 🥦</div>
+			</div>
+    </div>
+  </div>
+  <!-- END Category special offers -->
+
+  <!-- BEGIN Wolt Market specials -->
+  <div class="section-wrapper bottom-section-wrapper">
+    <h2>Wolt Market specials</h2>
+    <div class="categories-wrapper">
+			<div class="category-card">
+				<div class="image-wrapper"><img class="image" src="img/wolt-market-tussock.jpg"></div>
+				<div class="category-title">Tussock Jumper 0.75l</div>
+			</div>
+			<div class="category-card">
+				<div class="image-wrapper"><img class="image" src="img/wolt-market-burn.jpg"></div>
+				<div class="category-title">Burn 0.33l</div>
+			</div>
+			<div class="category-card">
+				<div class="image-wrapper"><img class="image" src="img/wolt-market-miller.jpg"></div>
+				<div class="category-title">Miller 0.33l</div>
+			</div>
+			<div class="category-card">
+				<div class="image-wrapper"><img class="image" src="img/wolt-market-pringles.jpg"></div>
+				<div class="category-title">Pringles 165g</div>
+			</div>
+			<div class="category-card">
+				<div class="image-wrapper"><img class="image" src="img/wolt-market-staropramen.jpg"></div>
+				<div class="category-title">Staropramen 0.5l</div>
+			</div>
+			<div class="category-card">
+				<div class="image-wrapper"><img class="image" src="img/wolt-market-benandjerrys.jpg"></div>
+				<div class="category-title">Ben&Jerry's 465ml</div>
+			</div>
+    </div>
+  </div>
+  <!-- END Wolt Market specials -->
+  </main>
+      <footer>
+        <div class="inner-footer">
+            <div class="footer-content">
+							<div class="footer-app">
+								<img class="footer-logo" src="img/footer-logo.png" alt="">
+								<div class="footer-appLinks">
+									<a href="#"><img id="footer-store" src="img/download-app-store.png" alt=""></a>
+									<a href="#"><img id="footer-play" src="img/download-google-play.png" alt=""></a>
+								</div>
+							</div>
+							<div class="footer-info">
+								<nav class="footer-infoLinks">
+									<label class="footer-label">Let's do this together</label>
+									<div class="footer-info-content">
+										<ul class="footer-content-list">
+											<li><a href="#">For couriers</a></li>
+											<li><a href="#">For restaurants</a></li>
+											<li><a href="#">For stores</a></li>
+											<li><a href="#">For companies</a></li>
+											<li><a href="#">Wolt Drive</a></li>
+										</ul>
+									</div>
+								</nav>
+								<nav class="footer-infoLinks">
+									<label class="footer-label">Company</label>
+									<div class="footer-info-content">
+										<ul class="footer-content-list">
+											<li><a href="#">About us</a></li>
+											<li><a href="#">Jobs</a></li>
+											<li><a href="#">Responsibility</a></li>
+											<li><a href="#">Security</a></li>
+											<li><a href="#">Investors</a></li>
+										</ul>
+									</div>
+								</nav>
+									<nav class="footer-infoLinks">
+									<label class="footer-label">Useful links</label>
+									<div class="footer-info-content">
+										<ul class="footer-content-list">
+											<li><a href="#">Support</a></li>
+											<li><a href="#">Media</a></li>
+											<li><a href="#">Contact</a></li>
+										</ul>
+									</div>
+									</nav>
+									<nav class="footer-infoLinks">
+										<label class="footer-label">Follow us</label>
+										<div class="footer-info-content">
+											<ul class="footer-content-list">
+												<li><a href="#">Wolt blog</a></li>
+												<li><a href="#">Engineering blog</a></li>
+												<li><a href="#">Instagram</a></li>
+												<li><a href="#">Facebook</a></li>
+												<li><a href="#">Twitter</a></li>
+												<li><a href="#">LinkedIn</a></li>
+											</ul>
+										</div>
+									</nav>
+							</div>
+					</div>
+					<div class="footer-bottomBar">
+						<div class="footer-settings">
+							<button class="footerSetting-button1">Latvia</button>
+							<button class="footerSetting-button2">English</button>
+							<button class="footerSetting-button3">Accessibility</button>
+						</div>
+						<div class="footer-bottomEnd">
+							<nav class="footer-endLinks">
+								<a class="footer-endLink1" href="#">Accessibility Statement</a>
+								<a class="footer-endLink2" href="#">Terms and Conditions</a>
+								<a class="footer-endLink3" href="#">Privacy Policy</a>
+							</nav>
+								<div class="footer-attribution">©️ Wolt 2014–2022</div>
+						</div>
+					</div>
+        </div>
+    </footer>
+</body>
+</html>
