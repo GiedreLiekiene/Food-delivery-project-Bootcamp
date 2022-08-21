@@ -83,7 +83,7 @@ header {
 
 .nav2 {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 0 30px;
 }
 
@@ -350,8 +350,16 @@ footer {
 
 .inner-footer {
   height: 343px;
-  margin-left: 151px;
-  margin-right: 151px;
+  _margin-left: 151px;
+  _margin-right: 151px;
+}
+
+@media screen and (min-width: 1024px) {
+  .inner-footer {
+    width: 1024px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .footer-content {
@@ -359,7 +367,6 @@ footer {
   margin-bottom: 104px;
   height: 222px;
   align-items: center;
-  justify-content: center;
 }
 
 .footer-logo {
@@ -371,9 +378,10 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 15%;
-  width: 335px;
+  _width: 335px;
   height: 222px;
   justify-content: center;
+  margin-right: 50px;
 }
 
 .footer-appLinks {
@@ -381,7 +389,7 @@ footer {
   flex-direction: row;
   justify-content: flex-start;
   gap: 5%;
-  width: 335px;
+  _width: 335px;
   height: 40px;
 }
 
@@ -403,17 +411,19 @@ footer {
 
 .footer-info {
   display: flex;
-  width: 1173px;
+  _width: 1173px;
   height: 222px;
-  justify-content: flex-end;
+  _justify-content: flex-end;
   gap: 2%;
   font-size: 16px;
   line-height: 1.4;
+  width: 100%;
 }
 
 .footer-infoLinks {
-  width: 235px;
+  _width: 235px;
   height: 222px;
+  width: 25%;
 }
 
 .footer-label {
@@ -523,7 +533,7 @@ a:link {
     transform: scale(0.985);
   }
   .footer-info {
-    width: 900px;
+    _width: 900px;
   }
   .footer-appLinks {
     flex-direction: column;
@@ -538,7 +548,7 @@ a:link {
     transform: scale(0.85);
   }
   .footer-info {
-    width: 700px;
+    _width: 700px;
   }
   .footer-appLinks {
     flex-direction: column;
@@ -570,11 +580,11 @@ a:link {
     display: none;
   }
   .footer-info {
-    width: 500px;
+    _width: 500px;
     justify-content: space-between;
   }
   .footer-app {
-    width: 200px;
+    _width: 200px;
   }
 
   .footer-bottomBar {
@@ -582,6 +592,17 @@ a:link {
     height: 48px;
     flex-wrap: wrap;
   }
+
+  .inner-footer {
+    height: 363px;
+  }
+  .footer-settings {
+    padding-bottom: 20px;
+  }
+  .footer-infoLinks {
+    width: 100%;
+  }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -606,7 +627,7 @@ a:link {
     font-size: 15px;
   }
   .footer-info {
-    width: 300px;
+    _width: 300px;
     justify-content: space-between;
     flex-direction: column;
   }
